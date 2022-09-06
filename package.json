@@ -1,0 +1,20 @@
+{
+  "name": "vite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "lint": "eslint --fix",
+    "vue": "^3.2.13"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  }
+}
